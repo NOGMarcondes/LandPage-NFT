@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #06061a;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+button{
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-ul{
+    display: flex;
+    gap: 2rem ;
+    list-style: none;
+}
+
+.nav-li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg{
+background: linear-gradient(150deg, rgb(172, 60, 2460,0.2), #000);
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.25rem;
+    padding-top: 6rem;
+    overflow: hidden;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.up-text{
+    text-transform: uppercase;
+    color: #2eb1a3;
+    font-weight: 600;
+
+}
+
+.hero-description { 
+    flex: 1;
+    
+}
+
+.description{
+    font-size: 0.9rem;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: calc(1em + 0.5rem);
+    margin-block: 1.5rem;
+   
+    max-width: 50ch;
+
+}
+
+.hero-title{
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+    margin-top: 0.7rem;
+}
+
+.hero-btn{
+    font-size: 1rem;
+    background: linear-gradient(to right, #e8546b, #ac3cf6);
+    padding: 0.5em 2em;
+    border-radius: 6px;
+    color: #000;
+}
+
+.hero-img{  
+ 
+    flex: 1;
+    max-width: 550px;
+    transform: rotate(8deg);
+    
+}
+
+
+
+
+
