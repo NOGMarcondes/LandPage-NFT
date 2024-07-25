@@ -49,5 +49,43 @@
        </div>
     </section>
     </div>
+ <section class="info">     
+        <div class="line"></div>
+        <div class="items-wrapper">
+            <div class="item">            
+                <div class="item-title">1M+</div>
+                <div class="item-description">Usuarios Ativos</div>
+            </div>
+            <div class="item">            
+                <div class="item-title">R$115m+</div>
+                <div class="item-description">Já Ganhos</div>
+            </div>
+            <div class="item">            
+                <div class="item-title">4.8</div>
+                <div class="item-description">Avaliações Médias</div>
+            </div>
+            <div class="item">            
+                <div class="item-title">200+</div>
+                <div class="item-description">Coleções</div>
+            </div>
+        </div>
+
+        <div class="info-wrapper">
+            <div class="info-left">
+                <img src="imgs/IMG1-removebg-preview.png" alt="" srcset="">
+            </div>
+            <div class="info-right">
+                   <div class="section-up-text">Conceito Base</div>
+                   <div class="section-title">Jogo de coleta NFT e autobatalha</div>
+                   <div class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias minima aliquam quas dolorum? Quasi ad, molestiae voluptatum nobis impedit architecto quas sequi alias laboriosam dicta consequatur accusantium commodi ipsa?</div>
+                   <button class="section-btn">
+                        Descubra
+                   </button>
+            </div>
+        </div>
+    </section>
+
+
+
 </body>
 </html>
